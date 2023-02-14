@@ -18,3 +18,4 @@ print()
 #podemos usar o for para trazer a chave inteira
 for chave in pessoa:
     print(chave, pessoa[chave])
+#0,
