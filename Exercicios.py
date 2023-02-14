@@ -1,12 +1,20 @@
-def criar_saudacao(saudacao):
-    def saudar(nome):
-        return f'{saudacao}, {nome}!'
-    return saudar
+pessoa = {
+    'nome': 'luiz',
+    'sobrenome': 'mirante',
+    'idade': 20,
 
+ 
+    'endereço': [
 
-falar_bom_dia = criar_saudacao("Bom dia")
-falar_boa_noite = criar_saudacao("Boa noite")
+    {'rua': 'tal tal', 'numero': 123}
+    
+    ]
+}
 
-for nome in ["Maria" , "Joana" , "Luiz"]:
-    print(falar_bom_dia(nome))
-    print(falar_boa_noite(nome))
+print(pessoa['nome'])
+
+print()
+
+#podemos usar o for para trazer a chave inteira
+for chave in pessoa:
+    print(chave, pessoa[chave])
