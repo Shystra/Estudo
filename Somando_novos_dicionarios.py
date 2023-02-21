@@ -13,9 +13,13 @@ novos_produtos = [
     {**produto, 'preco': produto['preco'] * 1.05}
     if produto ['preco'] > 10 else {**produto}
     for produto in produtos
+
+    if (produto ['preco'] >= 20 and produto ['preco'] * 1.05) > 20
+
 ]
 
 p(novos_produtos)
+
 
 
 print()
