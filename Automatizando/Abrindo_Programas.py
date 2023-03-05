@@ -1,7 +1,7 @@
 import pyautogui
 import time
 
-pyautogui.PAUSE = 2
+pyautogui.PAUSE = 5
 
 pyautogui.press ("win")
 pyautogui.write ("Spotify")
