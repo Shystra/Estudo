@@ -18,4 +18,4 @@ soma1 = executa (soma, 5)
 soma2 = executay (multiplica, 10)
 
 print(soma1 (10))
-print(soma2 (10))
+print(soma2 (10)) 
