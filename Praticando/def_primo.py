@@ -20,6 +20,8 @@ def imprimir_resultado (numero, resultado):
 
 
 
+
+
 numero = int(input('Digite um numero: '))
 resultado = primo (numero)
 msg = imprimir_resultado(numero, resultado)
